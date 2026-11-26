@@ -1,0 +1,45 @@
+[
+  {
+    "id": "grant-5",
+    "school": "north",
+    "eligible": [
+      "p1",
+      "p3",
+      "p4"
+    ],
+    "required_stations": [
+      "gallery",
+      "studio"
+    ],
+    "student_limit": 2,
+    "per_visitor": 2400
+  },
+  {
+    "id": "payment-9",
+    "school": "north",
+    "people": [
+      "p3",
+      "a2"
+    ],
+    "lines": [
+      {
+        "person": "p3",
+        "cents": 2400
+      },
+      {
+        "person": "a2",
+        "cents": 900
+      }
+    ]
+  },
+  {
+    "id": "payment-10",
+    "school": "south",
+    "people": [
+      "p5",
+      "p6",
+      "a3"
+    ],
+    "cents": 5700
+  }
+]

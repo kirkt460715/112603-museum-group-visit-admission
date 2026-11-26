@@ -1,0 +1,63 @@
+[
+  {
+    "id": "show-1",
+    "station": "gallery",
+    "admit": [
+      4,
+      7
+    ],
+    "capacity": 12
+  },
+  {
+    "id": "press-2",
+    "station": "studio",
+    "admit": [
+      8,
+      10
+    ],
+    "capacity": 5,
+    "students_per_adult": 3
+  },
+  {
+    "id": "press-3",
+    "station": "studio",
+    "admit": [
+      12,
+      14
+    ],
+    "capacity": 4,
+    "students_per_adult": 3
+  },
+  {
+    "id": "paper-1",
+    "station": "show-1",
+    "person": "p3",
+    "tick": 6,
+    "source": "paper",
+    "verified": false
+  },
+  {
+    "id": "counter-34",
+    "station": "show-1",
+    "person": "p3",
+    "tick": 6,
+    "source": "scanner",
+    "verified": true,
+    "arrived_tick": 12
+  },
+  {
+    "id": "permission-11",
+    "station": "press-2",
+    "person": "p4",
+    "kind": "direct_arrival_allowed",
+    "confirmed_by": "venue"
+  },
+  {
+    "id": "counter-36",
+    "station": "press-3",
+    "person": "p5",
+    "tick": 12,
+    "source": "scanner",
+    "verified": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "g-river",
+    "school": "north",
+    "students": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "adults": [
+      "a1",
+      "a2"
+    ],
+    "station_one": "show-1",
+    "station_two": "press-2"
+  },
+  {
+    "id": "g-south",
+    "school": "south",
+    "students": [
+      "p5",
+      "p6"
+    ],
+    "adults": [
+      "a3"
+    ],
+    "station_one": "show-1",
+    "station_two": "press-3"
+  },
+  {
+    "id": "change-33",
+    "kind": "split_request",
+    "group": "g-river",
+    "student": "p3",
+    "taking_adult": "a3",
+    "wants": "press-3",
+    "tick": 5
+  }
+]
